@@ -1,0 +1,36 @@
+// testbench
+
+module testbench;
+    // tb signals
+    reg  A;
+    reg  B;
+	 reg	cin;
+    wire sum;
+	 wire cout;
+    
+    
+    //insantiate FullAdder module EP4CE115F29C7N
+    full_adder dut(
+		.cout(cout),
+		.sum(sum),
+		.cin(cin),
+		.A(A),
+		.B(B)
+    );
+    
+    
+    // apply stimuli
+    
+    initial begin
+
+    A =0; B =0; cin=0; #10;
+    A =0; B =0; cin=1; #10;
+    A =0; B =1; cin=0; #10;
+    A =0; B =1; cin=1; #10;
+	 A =1; B =0; cin=0; #10;
+	 A =1; B =0; cin=1; #10;
+	 A =1; B =1; cin=0; #10;
+	 A =1; B =1; cin=1; #10;
+    end 
+    
+endmodule

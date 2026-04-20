@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vtestbench
+!s110 1776675618
+!i10b 1
+!s100 _`ORmEd=7@E7A1fg``P5c3
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+If5TJ8n;lCe@]<8PPb9nZf2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/sidne/OneDrive/Desktop/demo1/work
+w1776674126
+8C:/Users/sidne/OneDrive/Desktop/demo1/testbench.v
+FC:/Users/sidne/OneDrive/Desktop/demo1/testbench.v
+!i122 0
+L0 2 21
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1776675618.000000
+!s107 C:/Users/sidne/OneDrive/Desktop/demo1/testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sidne/OneDrive/Desktop/demo1/testbench.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vxor_gate
+!s110 1776675716
+!i10b 1
+!s100 ZXzC41@_o0Rdj36][g3iX2
+R0
+IIn?3]jOo<B7`mS3@8mB]F0
+R1
+R2
+w1776671065
+8C:/Users/sidne/OneDrive/Desktop/demo1/xor_gate.v
+FC:/Users/sidne/OneDrive/Desktop/demo1/xor_gate.v
+!i122 1
+L0 12 19
+R3
+r1
+!s85 0
+31
+!s108 1776675716.000000
+!s107 C:/Users/sidne/OneDrive/Desktop/demo1/xor_gate.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sidne/OneDrive/Desktop/demo1/xor_gate.v|
+!i113 1
+R4
+R5

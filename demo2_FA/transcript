@@ -1,0 +1,99 @@
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 18:13:47 on Apr 20,2026
+# Loading work.testbench
+# ** Error: (vsim-3033) Instantiation of 'FullAdder' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench File: C:/Users/sidne/OneDrive/Desktop/demo2/testbench.v Line: 13
+#         Searched libraries:
+#             C:/Users/sidne/OneDrive/Desktop/demo2/work
+# Error loading design
+# End time: 18:13:47 on Apr 20,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# Compile of full_adder.v was successful.
+# Compile of testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 18:14:11 on Apr 20,2026
+# Loading work.testbench
+# ** Error: (vsim-3033) Instantiation of 'FullAdder' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench File: C:/Users/sidne/OneDrive/Desktop/demo2/testbench.v Line: 13
+#         Searched libraries:
+#             C:/Users/sidne/OneDrive/Desktop/demo2/work
+# Error loading design
+# End time: 18:14:11 on Apr 20,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# Load canceled
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 18:14:38 on Apr 20,2026
+# Loading work.testbench
+# ** Error: (vsim-3033) Instantiation of 'FullAdder' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench File: C:/Users/sidne/OneDrive/Desktop/demo2/testbench.v Line: 13
+#         Searched libraries:
+#             C:/Users/sidne/OneDrive/Desktop/demo2/work
+# Error loading design
+# End time: 18:14:38 on Apr 20,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+vsim work.full_adder
+# vsim work.full_adder 
+# Start time: 18:14:39 on Apr 20,2026
+# Loading work.full_adder
+add wave -position insertpoint  \
+sim:/full_adder/A \
+sim:/full_adder/B \
+sim:/full_adder/cin \
+sim:/full_adder/cout \
+sim:/full_adder/sum \
+sim:/full_adder/w1 \
+sim:/full_adder/w2 \
+sim:/full_adder/w3
+run
+quit -sim
+# End time: 18:15:18 on Apr 20,2026, Elapsed time: 0:00:39
+# Errors: 0, Warnings: 1
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 18:15:19 on Apr 20,2026
+# Loading work.testbench
+# ** Error: (vsim-3033) Instantiation of 'FullAdder' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench File: C:/Users/sidne/OneDrive/Desktop/demo2/testbench.v Line: 13
+#         Searched libraries:
+#             C:/Users/sidne/OneDrive/Desktop/demo2/work
+# Error loading design
+# End time: 18:15:20 on Apr 20,2026, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+vsim work.full_adder
+# vsim work.full_adder 
+# Start time: 18:15:48 on Apr 20,2026
+# Loading work.full_adder
+# Compile of testbench.v was successful.
+vsim work.testbench
+# End time: 18:17:14 on Apr 20,2026, Elapsed time: 0:01:26
+# Errors: 0, Warnings: 2
+# vsim work.testbench 
+# Start time: 18:17:14 on Apr 20,2026
+# Loading work.testbench
+# ** Error: (vsim-3033) Instantiation of 'FullAdder' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench File: C:/Users/sidne/OneDrive/Desktop/demo2/testbench.v Line: 13
+#         Searched libraries:
+#             C:/Users/sidne/OneDrive/Desktop/demo2/work
+# Error loading design
+# End time: 18:17:14 on Apr 20,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# Compile of testbench.v was successful.
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 18:20:30 on Apr 20,2026
+# Loading work.testbench
+# Loading work.full_adder
+add wave -position insertpoint  \
+sim:/testbench/A \
+sim:/testbench/B \
+sim:/testbench/cin \
+sim:/testbench/cout \
+sim:/testbench/sum
+run
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/sidne/OneDrive/Desktop/demo2/wave.do
+# End time: 18:24:04 on Apr 20,2026, Elapsed time: 0:03:34
+# Errors: 0, Warnings: 2

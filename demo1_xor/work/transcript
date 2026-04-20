@@ -1,0 +1,28 @@
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 17:29:28 on Apr 20,2026
+# Loading work.testbench
+# Loading work.xor_gate
+add wave -position insertpoint  \
+sim:/testbench/A \
+sim:/testbench/B \
+sim:/testbench/Y
+run
+run
+run
+# Break key hit
+quit -sim
+# End time: 17:33:00 on Apr 20,2026, Elapsed time: 0:03:32
+# Errors: 0, Warnings: 1
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 17:33:12 on Apr 20,2026
+# Loading work.testbench
+# Loading work.xor_gate
+add wave -position insertpoint  \
+sim:/testbench/A \
+sim:/testbench/B \
+sim:/testbench/Y
+run
+# End time: 17:35:19 on Apr 20,2026, Elapsed time: 0:02:07
+# Errors: 0, Warnings: 1
