@@ -1,5 +1,5 @@
 |xor_gate
-Y <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+Y << Add0.DB_MAX_OUTPUT_PORT_TYPE
 A => Y.IN0
 A => Y.IN0
 B => Y.IN1

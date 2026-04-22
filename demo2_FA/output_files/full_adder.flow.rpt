@@ -1,5 +1,5 @@
 Flow report for full_adder
-Mon Apr 20 18:18:28 2026
+Wed Apr 22 12:01:30 2026
 Quartus Prime Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
 
 
@@ -41,7 +41,7 @@ on the Quartus Prime software download page.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Mon Apr 20 18:18:28 2026           ;
+; Flow Status                        ; Successful - Wed Apr 22 12:01:30 2026           ;
 ; Quartus Prime Version              ; 25.1std.0 Build 1129 10/21/2025 SC Lite Edition ;
 ; Revision Name                      ; full_adder                                      ;
 ; Top-level Entity Name              ; full_adder                                      ;
@@ -65,7 +65,7 @@ on the Quartus Prime software download page.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/20/2026 18:18:21 ;
+; Start date & time ; 04/22/2026 12:01:22 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; full_adder          ;
 +-------------------+---------------------+
@@ -76,7 +76,7 @@ on the Quartus Prime software download page.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 86276415641830.177668030103236         ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 86276415641830.177683048208116         ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
 ; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                                   ; --            ; --          ; --         ;
@@ -92,8 +92,8 @@ on the Quartus Prime software download page.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:08     ; 1.0                     ; 4739 MB             ; 00:00:20                           ;
-; Total                  ; 00:00:08     ; --                      ; --                  ; 00:00:20                           ;
+; Analysis & Elaboration ; 00:00:08     ; 1.0                     ; 4739 MB             ; 00:00:21                           ;
+; Total                  ; 00:00:08     ; --                      ; --                  ; 00:00:21                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
