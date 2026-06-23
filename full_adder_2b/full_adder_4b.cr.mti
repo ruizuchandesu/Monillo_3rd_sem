@@ -5,12 +5,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	tb_full_adder_4b
 
-} {} {}} C:/Users/sidne/OneDrive/Desktop/3rd_sem/Monillo_3rd_sem/full_adder_2b/full_adder_2b.v {1 {vlog -work work -stats=none C:/Users/sidne/OneDrive/Desktop/3rd_sem/Monillo_3rd_sem/full_adder_2b/full_adder_2b.v
+} {} {}} C:/Users/sidne/OneDrive/Desktop/3rd_sem/Monillo_3rd_sem/full_adder_2b/half_adder.v {1 {vlog -work work -stats=none C:/Users/sidne/OneDrive/Desktop/3rd_sem/Monillo_3rd_sem/full_adder_2b/half_adder.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module full_adder_2b
+-- Compiling module half_adder
 
 Top level modules:
-	full_adder_2b
+	half_adder
 
 } {} {}} C:/Users/sidne/OneDrive/Desktop/3rd_sem/Monillo_3rd_sem/full_adder_2b/tb_full_adder_2b.v {1 {vlog -work work -stats=none C:/Users/sidne/OneDrive/Desktop/3rd_sem/Monillo_3rd_sem/full_adder_2b/tb_full_adder_2b.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -19,26 +19,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	tb_full_adder_2b
 
-} {} {}} C:/Users/sidne/OneDrive/Desktop/3rd_sem/Monillo_3rd_sem/full_adder_2b/half_adder.v {1 {vlog -work work -stats=none C:/Users/sidne/OneDrive/Desktop/3rd_sem/Monillo_3rd_sem/full_adder_2b/half_adder.v
+} {} {}} C:/Users/sidne/OneDrive/Desktop/3rd_sem/Monillo_3rd_sem/full_adder_2b/full_adder_4b.v {1 {vlog -work work -stats=none C:/Users/sidne/OneDrive/Desktop/3rd_sem/Monillo_3rd_sem/full_adder_2b/full_adder_4b.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module half_adder
+-- Compiling module full_adder_4b
 
 Top level modules:
-	half_adder
-
-} {} {}} C:/Users/sidne/OneDrive/Desktop/3rd_sem/Monillo_3rd_sem/full_adder_2b/full_adder.v {1 {vlog -work work -stats=none C:/Users/sidne/OneDrive/Desktop/3rd_sem/Monillo_3rd_sem/full_adder_2b/full_adder.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module full_adder
-
-Top level modules:
-	full_adder
-
-} {} {}} C:/Users/sidne/OneDrive/Desktop/3rd_sem/Monillo_3rd_sem/full_adder_2b/tb_half_adder.v {1 {vlog -work work -stats=none C:/Users/sidne/OneDrive/Desktop/3rd_sem/Monillo_3rd_sem/full_adder_2b/tb_half_adder.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module tb_half_adder
-
-Top level modules:
-	tb_half_adder
+	full_adder_4b
 
 } {} {}} C:/Users/sidne/OneDrive/Desktop/3rd_sem/Monillo_3rd_sem/full_adder_2b/tb_full_adder.v {1 {vlog -work work -stats=none C:/Users/sidne/OneDrive/Desktop/3rd_sem/Monillo_3rd_sem/full_adder_2b/tb_full_adder.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -47,11 +33,11 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	tb_full_adder
 
-} {} {}} C:/Users/sidne/OneDrive/Desktop/3rd_sem/Monillo_3rd_sem/full_adder_2b/full_adder_4b.v {1 {vlog -work work -stats=none C:/Users/sidne/OneDrive/Desktop/3rd_sem/Monillo_3rd_sem/full_adder_2b/full_adder_4b.v
+} {} {}} C:/Users/sidne/OneDrive/Desktop/3rd_sem/Monillo_3rd_sem/full_adder_2b/tb_half_adder.v {1 {vlog -work work -stats=none C:/Users/sidne/OneDrive/Desktop/3rd_sem/Monillo_3rd_sem/full_adder_2b/tb_half_adder.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module full_adder_4b
+-- Compiling module tb_half_adder
 
 Top level modules:
-	full_adder_4b
+	tb_half_adder
 
 } {} {}}
